@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8039175946605274082}
   - component: {fileID: 4513953057826226607}
-  - component: {fileID: 8016838517065719369}
   - component: {fileID: 5410356558473246439}
   m_Layer: 0
   m_Name: carrot
@@ -89,18 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &8016838517065719369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5926349147357854057}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a07b0536528d41729083ac713793922, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!60 &5410356558473246439
 PolygonCollider2D:
   m_ObjectHideFlags: 0

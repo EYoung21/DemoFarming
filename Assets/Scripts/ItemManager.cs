@@ -24,14 +24,15 @@ public class ItemManager : MonoBehaviour
         // if Pickable item and not already has carrot
         //     add item to PlayerScript
 
-        Debug.Log(other.tag);
+        Debug.Log("tag: " + other.tag);
+        Debug.Log("obj: " + other.gameObject);
 
         if (other.tag == "Carrot" && item == null) {
+            Debug.Log("In trigger enter 2d");
             item = other.gameObject;
             item.transform.SetParent(transform);
             item.transform.localPosition = new Vector3(0.5f, 0, 0);
             Destroy(other); //other.enabled = false;
-            Debug.Log("In trigger enter 2d");
         }
 
         Bunny bunny = other.GetComponent<Bunny>();
